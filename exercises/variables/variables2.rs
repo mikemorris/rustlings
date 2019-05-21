@@ -2,8 +2,9 @@
 // Make me compile! Scroll down for hints :)
 
 fn main() {
-    let x;
-    if x == 10 {
+    let x = 10;
+    let y: u32 = 10;
+    if x == y {
         println!("Ten!");
     } else {
         println!("Not ten!");
